@@ -1,0 +1,75 @@
+h1{
+    color: rgb(39, 31, 94);
+    font-size: 35px;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    font-size: 1.5em;
+    color:black;
+}
+
+input[type=radio]{
+    border: 0px;
+    width: 20px;
+    height: 2em;
+}
+
+.quizContainer{
+    background-color: rgb(193, 201, 211);
+    border-radius: 8px;
+    width: 85%;
+    margin: auto;
+    margin-top: 30px;
+    padding-top: 5px;
+    position: relative;
+}
+
+.nextButton{
+    border-radius: 50%;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    background-color: crimson;
+    color: black;
+    position: relative;
+    margin: auto;
+    padding-top: 20px;
+    font-weight: bolder;
+}
+
+.quizMessage{
+    background-color: grey;
+    border-radius: 6px;
+    width: 20%;
+    margin: auto;
+    text-align: center;
+    padding: 2px;
+    color: black;
+}
+
+.choiceList{
+    color: red;
+}
+
+.result{
+    width: 20%;
+    height: 60px;
+    background-color:linen;
+    text-align: center;
+    margin: auto;
+    padding-top: 35px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.question{
+    font-size: 2em;
+    width: 90%;
+    margin: auto;
+    height: auto;
+}
